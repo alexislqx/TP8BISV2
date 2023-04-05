@@ -2,7 +2,6 @@
 #include "attaque.h"
 #include <random>
 using namespace std;
-
 #define Pierre 0
 #define Feuille 1
 #define Ciseaux 2

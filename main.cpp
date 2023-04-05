@@ -1,5 +1,7 @@
 #include <iostream>
 #include "attaque.h"
+#include "loup.h"
+#include "pierre.h"
 using namespace std;
 
 
@@ -15,5 +17,8 @@ int main() {
   else{
     cout<<"Ciseaux à perdu"<<endl;
   }
+  // test de la classe animal
+  loup girafe(10,10);
+  pierre emeraude(10,10);
   
-}
+} 
